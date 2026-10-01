@@ -1,0 +1,30 @@
+{
+  "model": {
+    "vocab_size": 8000,
+    "d_model": 512,
+    "num_heads": 8,
+    "d_ff": 1344,
+    "num_layers": 8,
+    "max_seq_len": 512
+  },
+  "train": {
+    "batch_size": 32,
+    "steps": 12000,
+    "lr": 0.0006,
+    "min_lr": 6e-05,
+    "warmup": 300,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "eval_every": 500,
+    "sample_every": 2000,
+    "ckpt_every": 1000
+  },
+  "params": 33104384,
+  "gpu": "NVIDIA L4",
+  "precision": "bf16 autocast",
+  "torch": "2.11.0+cu128",
+  "data": "TinyStories-Regional/hindi-generated_4o-mini_2M, first 400k stories",
+  "tokenizer": "SentencePiece BPE, vocab 8000, byte fallback",
+  "tokens_per_second": 33000,
+  "training_minutes": 98.0
+}

@@ -1,0 +1,12 @@
+{
+  "final_val_loss": 0.8144,
+  "final_val_perplexity": 2.258,
+  "final_train_loss": 0.7839,
+  "init_val_loss": 9.1364,
+  "ln_vocab": 8.9872,
+  "steps": 12000,
+  "tokens_seen": 196608000,
+  "params": 33104384,
+  "tokens_per_second": 33000,
+  "training_minutes": 98.0
+}

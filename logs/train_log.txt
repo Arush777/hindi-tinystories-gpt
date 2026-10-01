@@ -1,0 +1,92 @@
+main: 33.1M params, 12000 steps, 16,384 tokens/step
+step 0 | val loss 9.136  (ln vocab = 8.987)
+step   200 | train 2.975 | lr 4.00e-04 | gnorm 0.45 | 34k tok/s | 1.6 min | eta 94.2 min
+step   400 | train 1.835 | lr 6.00e-04 | gnorm 0.37 | 34k tok/s | 3.2 min | eta 92.6 min
+           val loss 1.559 | perplexity 4.8
+step   600 | train 1.517 | lr 5.99e-04 | gnorm 0.35 | 34k tok/s | 4.9 min | eta 92.6 min
+step   800 | train 1.378 | lr 5.98e-04 | gnorm 0.34 | 34k tok/s | 6.5 min | eta 90.5 min
+step  1000 | train 1.290 | lr 5.95e-04 | gnorm 0.35 | 34k tok/s | 8.1 min | eta 88.7 min
+           val loss 1.269 | perplexity 3.6
+step  1200 | train 1.242 | lr 5.92e-04 | gnorm 0.34 | 34k tok/s | 9.8 min | eta 87.8 min
+step  1400 | train 1.200 | lr 5.88e-04 | gnorm 0.34 | 34k tok/s | 11.4 min | eta 85.9 min
+           val loss 1.168 | perplexity 3.2
+step  1600 | train 1.173 | lr 5.84e-04 | gnorm 0.32 | 34k tok/s | 13.0 min | eta 84.7 min
+step  1800 | train 1.138 | lr 5.78e-04 | gnorm 0.33 | 34k tok/s | 14.6 min | eta 82.9 min
+step  2000 | train 1.117 | lr 5.72e-04 | gnorm 0.32 | 34k tok/s | 16.2 min | eta 81.1 min
+           val loss 1.111 | perplexity 3.0
+  sample: एक बार की बात है, एक छोटे से गाँव में एक प्यारा सा बच्चा था जिसका नाम मोहन था। मोहन को दौड़ना बहुत पसंद था। वह हमेशा अपने दोस्तों के साथ दौड़ने के लिए बाहर जाता था। एक दिन, मोहन और उसके दोस्त खेलते-खेलते एक बड़ा पेड़ के नीचे पहुँचे। वहाँ उन्होंने देखा कि पेड़ के नीचे एक पुराना बक्सा पड़ा है। मोहन ने
+step  2200 | train 1.101 | lr 5.66e-04 | gnorm 0.31 | 33k tok/s | 18.0 min | eta 80.0 min
+step  2400 | train 1.079 | lr 5.58e-04 | gnorm 0.32 | 34k tok/s | 19.6 min | eta 78.2 min
+           val loss 1.069 | perplexity 2.9
+step  2600 | train 1.066 | lr 5.50e-04 | gnorm 0.31 | 33k tok/s | 21.2 min | eta 76.8 min
+step  2800 | train 1.056 | lr 5.41e-04 | gnorm 0.32 | 33k tok/s | 22.8 min | eta 75.0 min
+step  3000 | train 1.041 | lr 5.32e-04 | gnorm 0.33 | 34k tok/s | 24.4 min | eta 73.3 min
+           val loss 1.038 | perplexity 2.8
+step  3200 | train 1.031 | lr 5.22e-04 | gnorm 0.33 | 33k tok/s | 26.1 min | eta 71.8 min
+step  3400 | train 1.024 | lr 5.12e-04 | gnorm 0.32 | 34k tok/s | 27.7 min | eta 70.1 min
+           val loss 1.014 | perplexity 2.8
+step  3600 | train 1.006 | lr 5.01e-04 | gnorm 0.32 | 33k tok/s | 29.4 min | eta 68.6 min
+step  3800 | train 0.995 | lr 4.89e-04 | gnorm 0.31 | 33k tok/s | 31.0 min | eta 66.9 min
+step  4000 | train 0.990 | lr 4.77e-04 | gnorm 0.32 | 34k tok/s | 32.6 min | eta 65.2 min
+           val loss 0.990 | perplexity 2.7
+  sample: एक बार की बात है, एक छोटे से गाँव में एक प्यारा सा बच्चा था जिसका नाम था मोहन। मोहन को सुबह-सुबह उठना बहुत पसंद था। वह हमेशा अपने दादा जी से कहता, "दादा जी, मुझे एक नई कहानी सुनाइए।" दादा जी मुस्कुराए और बोले, "ठीक है, बेटा, आज मैं तुम्हें एक मजेदार कहानी सुनाता हूँ।" दादा जी ने मोहन को एक खास कहानी
+step  4200 | train 0.974 | lr 4.65e-04 | gnorm 0.31 | 33k tok/s | 34.3 min | eta 63.7 min
+step  4400 | train 0.970 | lr 4.52e-04 | gnorm 0.33 | 33k tok/s | 35.9 min | eta 62.0 min
+           val loss 0.971 | perplexity 2.6
+step  4600 | train 0.957 | lr 4.39e-04 | gnorm 0.32 | 33k tok/s | 37.6 min | eta 60.5 min
+step  4800 | train 0.947 | lr 4.26e-04 | gnorm 0.33 | 33k tok/s | 39.2 min | eta 58.8 min
+step  5000 | train 0.946 | lr 4.12e-04 | gnorm 0.34 | 33k tok/s | 40.8 min | eta 57.1 min
+           val loss 0.953 | perplexity 2.6
+step  5200 | train 0.931 | lr 3.98e-04 | gnorm 0.33 | 33k tok/s | 42.5 min | eta 55.5 min
+step  5400 | train 0.929 | lr 3.84e-04 | gnorm 0.34 | 33k tok/s | 44.1 min | eta 53.9 min
+           val loss 0.935 | perplexity 2.5
+step  5600 | train 0.918 | lr 3.70e-04 | gnorm 0.32 | 33k tok/s | 45.7 min | eta 52.3 min
+step  5800 | train 0.918 | lr 3.55e-04 | gnorm 0.32 | 33k tok/s | 47.3 min | eta 50.6 min
+step  6000 | train 0.910 | lr 3.41e-04 | gnorm 0.35 | 33k tok/s | 48.9 min | eta 48.9 min
+           val loss 0.920 | perplexity 2.5
+  sample: एक बार की बात है, एक छोटे से गाँव में एक प्यारा सा बच्चा था जिसका नाम मोहन था। मोहन को खेलना बहुत पसंद था। एक दिन, वह अपने दोस्तों के साथ खेलते-खेलते एक चमकीला बटन खोजता है। वह बटन बहुत सुंदर था और मोहन ने सोचा कि इसे वह अपने दोस्तों को दिखाएगा। मोहन ने अपने दोस्तों को बुलाया और बोला, "देखो, यह क्या
+step  6200 | train 0.902 | lr 3.26e-04 | gnorm 0.33 | 33k tok/s | 50.7 min | eta 47.4 min
+step  6400 | train 0.898 | lr 3.12e-04 | gnorm 0.33 | 33k tok/s | 52.3 min | eta 45.7 min
+           val loss 0.906 | perplexity 2.5
+step  6600 | train 0.894 | lr 2.98e-04 | gnorm 0.34 | 33k tok/s | 53.9 min | eta 44.1 min
+step  6800 | train 0.884 | lr 2.83e-04 | gnorm 0.35 | 33k tok/s | 55.5 min | eta 42.5 min
+step  7000 | train 0.874 | lr 2.69e-04 | gnorm 0.36 | 33k tok/s | 57.1 min | eta 40.8 min
+           val loss 0.891 | perplexity 2.4
+step  7200 | train 0.872 | lr 2.55e-04 | gnorm 0.35 | 33k tok/s | 58.8 min | eta 39.2 min
+step  7400 | train 0.865 | lr 2.41e-04 | gnorm 0.36 | 33k tok/s | 60.4 min | eta 37.6 min
+           val loss 0.879 | perplexity 2.4
+step  7600 | train 0.856 | lr 2.28e-04 | gnorm 0.34 | 33k tok/s | 62.1 min | eta 35.9 min
+step  7800 | train 0.847 | lr 2.14e-04 | gnorm 0.36 | 33k tok/s | 63.7 min | eta 34.3 min
+step  8000 | train 0.854 | lr 2.01e-04 | gnorm 0.36 | 33k tok/s | 65.3 min | eta 32.6 min
+           val loss 0.866 | perplexity 2.4
+  sample: एक बार की बात है, एक छोटे से गाँव में एक प्यारा सा बच्चा था जिसका नाम था मोहन। मोहन को खेलना बहुत पसंद था। एक दिन, वह अपने दोस्तों के साथ खेलते-खेलते एक सुंदर बाग में चला गया। बाग में खिलखिलाते फूल खिले हुए थे और वहाँ एक बड़ा सा पेड़ था। मोहन ने सोचा, "मैं इस पेड़ के नीचे खेलूँगा।" जब मोहन खेल रहा थ
+step  8200 | train 0.832 | lr 1.89e-04 | gnorm 0.35 | 33k tok/s | 67.0 min | eta 31.1 min
+step  8400 | train 0.831 | lr 1.77e-04 | gnorm 0.34 | 33k tok/s | 68.6 min | eta 29.4 min
+           val loss 0.857 | perplexity 2.4
+step  8600 | train 0.835 | lr 1.65e-04 | gnorm 0.34 | 33k tok/s | 70.3 min | eta 27.8 min
+step  8800 | train 0.825 | lr 1.54e-04 | gnorm 0.35 | 33k tok/s | 71.9 min | eta 26.1 min
+step  9000 | train 0.826 | lr 1.43e-04 | gnorm 0.36 | 33k tok/s | 73.5 min | eta 24.5 min
+           val loss 0.847 | perplexity 2.3
+step  9200 | train 0.819 | lr 1.33e-04 | gnorm 0.36 | 33k tok/s | 75.2 min | eta 22.9 min
+step  9400 | train 0.808 | lr 1.23e-04 | gnorm 0.36 | 33k tok/s | 76.8 min | eta 21.2 min
+           val loss 0.838 | perplexity 2.3
+step  9600 | train 0.813 | lr 1.14e-04 | gnorm 0.37 | 33k tok/s | 78.4 min | eta 19.6 min
+step  9800 | train 0.810 | lr 1.06e-04 | gnorm 0.37 | 33k tok/s | 80.0 min | eta 18.0 min
+step 10000 | train 0.800 | lr 9.80e-05 | gnorm 0.37 | 33k tok/s | 81.6 min | eta 16.3 min
+           val loss 0.831 | perplexity 2.3
+  sample: एक बार की बात है, एक छोटे से गाँव में एक प्यारा सा बच्चा था जिसका नाम था मोहन। मोहन को खेलना बहुत पसंद था। एक दिन, उसने अपने दोस्तों के साथ मिलकर एक खेल खेलने का सोचा। उन्होंने एक बड़ा डिब्बा लिया और उसके चारों ओर दौड़ने का फैसला किया। मोहन ने कहा, "चलो, हम इस डिब्बे में छिपने का खेल खेलते हैं!" सभी
+step 10200 | train 0.797 | lr 9.10e-05 | gnorm 0.37 | 33k tok/s | 83.4 min | eta 14.7 min
+step 10400 | train 0.798 | lr 8.46e-05 | gnorm 0.37 | 33k tok/s | 85.0 min | eta 13.1 min
+           val loss 0.825 | perplexity 2.3
+step 10600 | train 0.796 | lr 7.89e-05 | gnorm 0.37 | 33k tok/s | 86.6 min | eta 11.4 min
+step 10800 | train 0.793 | lr 7.39e-05 | gnorm 0.37 | 33k tok/s | 88.2 min | eta 9.8 min
+step 11000 | train 0.786 | lr 6.97e-05 | gnorm 0.37 | 33k tok/s | 89.8 min | eta 8.2 min
+           val loss 0.820 | perplexity 2.3
+step 11200 | train 0.786 | lr 6.62e-05 | gnorm 0.37 | 33k tok/s | 91.5 min | eta 6.5 min
+step 11400 | train 0.784 | lr 6.35e-05 | gnorm 0.38 | 33k tok/s | 93.1 min | eta 4.9 min
+           val loss 0.817 | perplexity 2.3
+step 11600 | train 0.779 | lr 6.16e-05 | gnorm 0.38 | 33k tok/s | 94.8 min | eta 3.3 min
+step 11800 | train 0.779 | lr 6.04e-05 | gnorm 0.37 | 33k tok/s | 96.4 min | eta 1.6 min
+step 12000 | train 0.784 | lr 6.00e-05 | gnorm 0.39 | 33k tok/s | 98.0 min | eta 0.0 min
+           val loss 0.814 | perplexity 2.3
+  sample: एक बार की बात है, एक छोटे से गाँव में एक प्यारा सा बच्चा था जिसका नाम मोहन था। मोहन को सब्जियाँ बहुत पसंद थीं, खासकर बैंगन। एक दिन, उसने सोचा कि क्यों न बैंगन की सब्जी बनाई जाए। उसने अपनी माँ से पूछा, "माँ, क्या मैं बैंगन की सब्जी बना सकता हूँ?" माँ ने मुस्कुराते हुए कहा, "बिल्कुल, बेटा!" मोहन ने बै
